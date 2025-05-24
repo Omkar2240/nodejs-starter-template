@@ -1,4 +1,4 @@
-### This is the starter template of Node.js for building backend
+# This is the starter template of Node.js for building backend
 
 `src` --> Inside the src folder, all the source code of the project will reside, this will not include any kind of tests (You might need to create separate folder for tests)
 
