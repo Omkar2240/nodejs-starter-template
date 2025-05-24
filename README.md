@@ -1,5 +1,14 @@
 ### This is the starter template of Node.js for building backend
 
+`src` --> Inside the src folder, all the source code of the project will reside, this will not include any kind of tests (You might need to create separate folder for tests)
+
+Let's take a look inside the `src` folder:
+
+- `config` --> In this folder, everything and anything related to configurations or setup of library or module will be done. For example: setting up dotenv for loading the environment variables in `server-config.js` file. One more example can be to setup the logging library that can help to prepare meaningdul logs.
+
+- `routes` --> In the routes folder, we register a route and the corresponding middlewares and controllers to it.
+
+- `middlewares` --> Middlewares process incoming requests before they reach their final destination and handle outgoing requests before they sent back to the client. they are just going to interscept the incoming requests where we can write our validators, autheicators, etc. Middlewares is use for protecting the any route.
 
 ## Setup the project
 

@@ -1,7 +1,7 @@
-const express = require('express');
+import express from 'express';
 
-const { serverConfig, Logger } = require('./config');
-const apiRoutes = require('./routes')
+import { serverConfig, Logger } from './config';
+import apiRoutes from './routes';
 
 const app = express();
 
